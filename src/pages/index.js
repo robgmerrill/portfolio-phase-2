@@ -6,9 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout className="h-screen">
     <SEO title="Home" />
-    <div className="">
+    <div className="mt-20 mb-28 h-1/4">
       <h1 className="text-4xl font-bold leading-normal md:text-center">
         I help businesses grow by creating software experiences that are simple
         and delightful.
