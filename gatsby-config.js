@@ -15,8 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-postcss',
-
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -27,6 +26,16 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "0vafsxnk",
+        dataset: "production",
+        watchMode: true, // Updates your pages when you create or update documents
+        token:
+          "skrGRDDnihxkEHTC3PzckGMlgi679doqAiFOR9ZQvbHWws9w9uzrWAYP5EuwK0zDrlDSVlPdZkBAYMvY3s4CpkGGTitJ6bLJOf5FKWrx4vbNJNHH2iyqwocmqtrPVjAG1PXo8Hyaz93pxNTcYOoInfndzE2G137qeV9mTp1LT3H5WXlSoi9O",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
