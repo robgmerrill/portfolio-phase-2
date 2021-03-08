@@ -14,7 +14,7 @@ import Footer from "./footer"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="">
+      <div className="container p-5 mx-auto">
         <Header />
 
         <main>{children}</main>
